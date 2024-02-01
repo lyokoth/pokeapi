@@ -26,3 +26,31 @@ This API is a RESTful web service that provides access to Pokémon data stored i
 - `/pokemon{region}`: Search a Pokemon by the region it originates from.
 
 
+
+## SQL
+
+> A sample data table.
+
+Table: pokemon
+----------------------------------------
+| Column          | Type    | Description |
+----------------------------------------
+| id              | Integer | Primary key, unique identifier for each Pokémon. |
+| name            | String  | Name of the Pokémon species. |
+| type            | String  | Primary type(s) of the Pokémon. |
+| ability         | String  | Primary ability of the Pokémon. |
+| hidden_ability  | String  | Hidden or secondary ability of the Pokémon. |
+| height          | Integer | Height of the Pokémon in centimeters. |
+| weight          | Integer | Weight of the Pokémon in kilograms. |
+| hp              | Integer | Hit Points (HP) of the Pokémon. |
+| attack          | Integer | Attack stat of the Pokémon. |
+| defense         | Integer | Defense stat of the Pokémon. |
+| sp_atk          | Integer | Special Attack stat of the Pokémon. |
+| sp_def          | Integer | Special Defense stat of the Pokémon. |
+| speed           | Integer | Speed stat of the Pokémon. |
+| BST             | Integer | Base Stat Total (BST) of the Pokémon. |
+| stage           | Integer | Evolution stage of the Pokémon (if applicable). |
+| evolves_to      | String  | Pokémon species it evolves into (if applicable). |
+| evolves_from    | String  | Pokémon species it evolves from (if applicable). |
+| region          | String  | Region where the Pokémon species originates. |
+----------------------------------------
