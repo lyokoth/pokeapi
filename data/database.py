@@ -35,7 +35,7 @@ pokemon_table = Table(
 metadata.create_all(engine)
 
 # Insert data into the table
-with open('kanto_pokemon_data.json') as f:
+with open('/region json/kanto_pokemon_data.json') as f:
     pokemon_data = json.load(f)
 
 
