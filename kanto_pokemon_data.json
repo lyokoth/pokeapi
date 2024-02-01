@@ -1,0 +1,3660 @@
+{
+    "Kanto": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "type": ["Grass", "Poison"],
+            "abilities": ["Overgrow"],
+            "hidden_ability": "Chlorophyll",
+            "height": "2'04\"0.7 m",
+            "weight": "15.2 lbs\"6.9 kg",
+            "stats": {
+                "hp": 45,
+                "attack": 49,
+                "defense": 49,
+                "sp_atk": 65,
+                "sp_def": 65,
+                "speed": 45,
+                "BST": 318
+            },
+            "evolution": {
+                "stage": 1,
+                "evolves_to": "Ivysaur",
+                "evolves_from": "None"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "type": ["Grass", "Poison"],
+            "abilities": ["Overgrow"],
+            "hidden_ability": "Chlorophyll",
+            "height": "3'03\"1.0 m",
+            "weight": "28.7 lbs\"13.0 kg",
+            "stats": {
+                "hp": 60,
+                "attack": 62,
+                "defense": 63,
+                "sp_atk": 80,
+                "sp_def": 80,
+                "speed": 60,
+                "BST": 405
+            },
+            "evolution": {
+                "stage": 2,
+                "evolves_to": "Venusaur",
+                "evolves_from": "Bulbasaur"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "type": ["Grass", "Poison"],
+            "abilities": ["Overgrow"],
+            "hidden_ability": "Chlorophyll",
+            "height": "6'07\"2.0 m",
+            "weight": "220.5 lbs\"100.0 kg",
+            "stats": {
+                "hp": 80,
+                "attack": 82,
+                "defense": 83,
+                "sp_atk": 100,
+                "sp_def": 100,
+                "speed": 80,
+                "BST": 525
+            },
+            "evolution": {
+                "stage": 3,
+                "evolves_to": "None",
+                "evolves_from": "Ivysaur"
+            },
+            "mega_evolution": {
+                "mega_stone": "Venusaurite",
+                "type": ["Grass", "Poison"],
+                "abilities": ["Thick Fat"],
+                "height": "7'10\"2.4 m",
+                "weight": "342.8 lbs\"155.5 kg",
+                "stats": {
+                    "hp": 80,
+                    "attack": 100,
+                    "defense": 123,
+                    "sp_atk": 122,
+                    "sp_def": 120,
+                    "speed": 80,
+                    "BST": 625
+                }
+            },
+            "gigantamax": {
+                "type": ["Grass", "Poison"],
+                "height": "82'0\"25.0 m",
+                "weight": "??? lbs??? kg",
+                "ability": "G-Max Vine Lash"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "type": ["Fire"],
+            "abilities": ["Blaze"],
+            "hidden_ability": "Solar Power",
+            "height": "2'00\"0.6 m",
+            "weight": "18.7 lbs\"8.5 kg",
+            "stats": {
+                "hp": 39,
+                "attack": 52,
+                "defense": 43,
+                "sp_atk": 60,
+                "sp_def": 50,
+                "speed": 65,
+                "BST": 309
+            },
+            "evolution": {
+                "stage": 1,
+                "evolves_to": "Charmeleon",
+                "evolves_from": "None"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Charmeleon",
+            "type": ["Fire"],
+            "abilities": ["Blaze"],
+            "hidden_ability": "Solar Power",
+            "height": "3'07\"1.1 m",
+            "weight": "41.9 lbs\"19.0 kg",
+            "stats": {
+                "hp": 58,
+                "attack": 64,
+                "defense": 58,
+                "sp_atk": 80,
+                "sp_def": 65,
+                "speed": 80,
+                "BST": 405
+            },
+            "evolution": {
+                "stage": 2,
+                "evolves_to": "Charizard",
+                "evolves_from": "Charmander"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Charizard",
+            "type": ["Fire", "Flying"],
+            "abilities": ["Blaze"],
+            "hidden_ability": "Solar Power",
+            "height": "5'07\"1.7 m",
+            "weight": "199.5 lbs\"90.5 kg",
+            "stats": {
+                "hp": 78,
+                "attack": 84,
+                "defense": 78,
+                "sp_atk": 109,
+                "sp_def": 85,
+                "speed": 100,
+                "BST": 534
+            },
+            "evolution": {
+                "stage": 3,
+                "evolves_to": "None",
+                "evolves_from": "Charmeleon"
+            },
+            "mega_evolution": {
+                "mega_stone": "Charizardite X",
+                "type": ["Fire", "Dragon"],
+                "abilities": ["Tough Claws"],
+                "height": "5'07\"1.7 m",
+                "weight": "243.6 lbs\"110.5 kg",
+                "stats": {
+                    "hp": 78,
+                    "attack": 130,
+                    "defense": 111,
+                    "sp_atk": 130,
+                    "sp_def": 85,
+                    "speed": 100,
+                    "BST": 634
+                }
+            },
+            "gigantamax": {
+                "type": ["Fire", "Flying"],
+                "height": "91'10\"28.0 m",
+                "weight": "??? lbs??? kg",
+                "ability": "G-Max Wildfire"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Squirtle",
+            "type": ["Water"],
+            "abilities": ["Torrent"],
+            "hidden_ability": "Rain Dish",
+            "height": "1'08\"0.5 m",
+            "weight": "19.8 lbs\"9.0 kg",
+            "stats": {
+                "hp": 44,
+                "attack": 48,
+                "defense": 65,
+                "sp_atk": 50,
+                "sp_def": 64,
+                "speed": 43,
+                "BST": 314
+            },
+            "evolution": {
+                "stage": 1,
+                "evolves_to": "Wartortle",
+                "evolves_from": "None"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Wartortle",
+            "type": ["Water"],
+            "abilities": ["Torrent"],
+            "hidden_ability": "Rain Dish",
+            "height": "3'03\"1.0 m",
+            "weight": "49.6 lbs\"22.5 kg",
+            "stats": {
+                "hp": 59,
+                "attack": 63,
+                "defense": 80,
+                "sp_atk": 65,
+                "sp_def": 80,
+                "speed": 58,
+                "BST": 405
+            },
+            "evolution": {
+                "stage": 2,
+                "evolves_to": "Blastoise",
+                "evolves_from": "Squirtle"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Blastoise",
+            "type": ["Water"],
+            "abilities": ["Torrent"],
+            "hidden_ability": "Rain Dish",
+            "height": "5'03\"1.6 m",
+            "weight": "188.5 lbs\"85.5 kg",
+            "stats": {
+                "hp": 79,
+                "attack": 83,
+                "defense": 100,
+                "sp_atk": 85,
+                "sp_def": 105,
+                "speed": 78,
+                "BST": 530
+            },
+            "evolution": {
+                "stage": 3,
+                "evolves_to": "None",
+                "evolves_from": "Wartortle"
+            },
+            "mega_evolution": {
+                "mega_stone": "Blastoisinite",
+                "type": ["Water"],
+                "abilities": ["Mega Launcher"],
+                "height": "5'07\"1.7 m",
+                "weight": "222.9 lbs\"101.1 kg",
+                "stats": {
+                    "hp": 79,
+                    "attack": 103,
+                    "defense": 120,
+                    "sp_atk": 135,
+                    "sp_def": 115,
+                    "speed": 78,
+                    "BST": 630
+                }
+            },
+            "gigantamax": {
+                "type": ["Water"],
+                "height": "82'0\"25.0 m",
+                "weight": "??? lbs??? kg",
+
+                "ability": "G-Max Cannonade"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Caterpie",
+            "type": ["Bug"],
+            "abilities": ["Shield Dust"],
+            "hidden_ability": "Run Away",
+            "height": "1'00\"0.3 m",
+            "weight": "6.4 lbs\"2.9 kg",
+            "stats": {
+                "hp": 45,
+                "attack": 30,
+                "defense": 35,
+                "sp_atk": 20,
+                "sp_def": 20,
+                "speed": 45,
+                "BST": 195
+            },
+            "evolution": {
+                "stage": 1,
+                "evolves_to": "Metapod",
+                "evolves_from": "None"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Metapod",
+            "type": ["Bug"],
+            "abilities": ["Shed Skin"],
+            "hidden_ability": "None",
+            "height": "2'04\"0.7 m",
+            "weight": "21.8 lbs\"9.9 kg",
+            "stats": {
+                "hp": 50,
+                "attack": 20,
+                "defense": 55,
+                "sp_atk": 25,
+                "sp_def": 25,
+                "speed": 30,
+                "BST": 205
+            },
+            "evolution": {
+                "stage": 2,
+                "evolves_to": "Butterfree",
+                "evolves_from": "Caterpie"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Butterfree",
+            "type": ["Bug", "Flying"],
+            "abilities": ["Compound Eyes"],
+            "hidden_ability": "Tinted Lens",
+            "height": "3'07\"1.1 m",
+            "weight": "70.5 lbs\"32.0 kg",
+            "stats": {
+                "hp": 60,
+                "attack": 45,
+                "defense": 50,
+                "sp_atk": 90,
+                "sp_def": 80,
+                "speed": 70,
+                "BST": 395
+            },
+            "evolution": {
+                "stage": 3,
+                "evolves_to": "None",
+                "evolves_from": "Metapod"
+            },
+            "gigantamax": {
+                "type": ["Bug", "Flying"],
+                "height": "55'9\"17.0 m",
+                "weight": "??? lbs??? kg",
+                "ability": "G-Max Befuddle"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Weedle",
+            "type": ["Bug", "Poison"],
+            "abilities": ["Shield Dust"],
+            "hidden_ability": "Run Away",
+            "height": "1'00\"0.3 m",
+            "weight": "7.1 lbs\"3.2 kg",
+            "stats": {
+                "hp": 40,
+                "attack": 35,
+                "defense": 30,
+                "sp_atk": 20,
+                "sp_def": 20,
+                "speed": 50,
+                "BST": 195
+            },
+            "evolution": {
+                "stage": 1,
+                "evolves_to": "Kakuna",
+                "evolves_from": "None"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Kakuna",
+            "type": ["Bug", "Poison"],
+            "abilities": ["Shed Skin"],
+            "hidden_ability": "None",
+            "height": "2'00\"0.6 m",
+            "weight": "22.0 lbs\"10.0 kg",
+            "stats": {
+                "hp": 45,
+                "attack": 25,
+                "defense": 50,
+                "sp_atk": 25,
+                "sp_def": 25,
+                "speed": 35,
+                "BST": 205
+            },
+            "evolution": {
+                "stage": 2,
+                "evolves_to": "Beedrill",
+                "evolves_from": "Weedle"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Beedrill",
+            "type": ["Bug", "Poison"],
+            "abilities": ["Swarm"],
+            "hidden_ability": "Sniper",
+            "height": "3'03\"1.0 m",
+            "weight": "65.0 lbs\"29.5 kg",
+            "stats": {
+                "hp": 65,
+                "attack": 90,
+                "defense": 40,
+                "sp_atk": 45,
+                "sp_def": 80,
+                "speed": 75,
+                "BST": 395
+            },
+            "evolution": {
+                "stage": 3,
+                "evolves_to": "None"
+        },
+        "mega_evolution": {
+            "mega_stone": "Beedrillite",
+            "type": ["Bug", "Poison"],
+            "abilities": ["Adaptability"],
+            "height": "4'07\"1.4 m",
+            "weight": "65.0 lbs\"29.5 kg",
+            "stats": {
+                "hp": 65,
+                "attack": 150,
+                "defense": 40,
+                "sp_atk": 15,
+                "sp_def": 80,
+                "speed": 145,
+                "BST": 495
+            }
+        }
+    },
+    {
+        "id": 16,
+        "name": "Pidgey",
+        "type": ["Normal", "Flying"],
+        "abilities": ["Keen Eye"],
+        "hidden_ability": "Tangled Feet",
+        "height": "1'00\"0.3 m",
+        "weight": "4.0 lbs\"1.8 kg",
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "sp_atk": 35,
+            "sp_def": 35,
+            "speed": 56,
+            "BST": 251
+        },
+        "evolution": {
+            "stage": 1,
+            "evolves_to": "Pidgeotto",
+            "evolves_from": "None"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Pidgeotto",
+        "type": ["Normal", "Flying"],
+        "abilities": ["Keen Eye"],
+        "hidden_ability": "Tangled Feet",
+        "height": "3'07\"1.1 m",
+        "weight": "66.1 lbs\"30.0 kg",
+        "stats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "sp_atk": 50,
+            "sp_def": 50,
+            "speed": 71,
+            "BST": 349
+        },
+        "evolution": {
+            "stage": 2,
+            "evolves_to": "Pidgeot",
+            "evolves_from": "Pidgey"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Pidgeot",
+        "type": ["Normal", "Flying"],
+        "abilities": ["Keen Eye"],
+        "hidden_ability": "Tangled Feet",
+        "height": "4'11\"1.5 m",
+        "weight": "87.1 lbs\"39.5 kg",
+        "stats": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "sp_atk": 70,
+            "sp_def": 70,
+            "speed": 101,
+            "BST": 479
+        },
+        "evolution": {
+            "stage": 3,
+            "evolves_to": "None"
+    },
+        "mega_evolution": {
+            "mega_stone": "Pidgeotite",
+            "type": ["Normal", "Flying"],
+            "abilities": ["No Guard"],
+            "height": "5'07\"1.7 m",
+            "weight": "111.3 lbs\"50.5 kg",
+            "stats": {
+                "hp": 83,
+                "attack": 80,
+                "defense": 80,
+                "sp_atk": 135,
+                "sp_def": 80,
+                "speed": 121,
+                "BST": 579
+            }
+        }
+    },
+    {
+        "id": 19,
+        "name": "Rattata",
+        "type": ["Normal"],
+        "abilities": ["Run Away", "Guts"],
+        "hidden_ability": "Hustle",
+        "height": "1'00\"0.3 m",
+        "weight": "7.7 lbs\"3.5 kg",
+        "stats": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "sp_atk": 25,
+            "sp_def": 35,
+            "speed": 72,
+            "BST": 253
+        },
+        "evolution": {
+            "stage": 1,
+            "evolves_to": "Raticate",
+            "evolves_from": "None"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Raticate",
+        "type": ["Normal"],
+        "abilities": ["Run Away", "Guts"],
+        "hidden_ability": "Hustle",
+        "height": "2'04\"0.7 m",
+        "weight": "40.8 lbs\"18.5 kg",
+        "stats": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "sp_atk": 50,
+            "sp_def": 70,
+            "speed": 97,
+            "BST": 413
+        },
+        "evolution": {
+            "stage": 2,
+            "evolves_to": "None",
+            "evolves_from": "Rattata"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Spearow",
+        "type": ["Normal", "Flying"],
+        "abilities": ["Keen Eye"],
+        "hidden_ability": "Sniper",
+        "height": "1'00\"0.3 m",
+        "weight": "4.4 lbs\"2.0 kg",
+        "stats": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "sp_atk": 31,
+            "sp_def": 31,
+            "speed": 70,
+            "BST": 262
+        },
+        "evolution": {
+            "stage": 1,
+            "evolves_to": "Fearow",
+            "evolves_from": "None",
+            "mega_evolution": "None"
+    }
+},
+{
+    "id": 22,
+    "name": "Fearow",
+    "type": ["Normal", "Flying"],
+    "abilities": ["Keen Eye"],
+    "hidden_ability": "Sniper",
+    "height": "3'07\"1.1 m",
+    "weight": "83.8 lbs\"38.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 65,
+        "sp_atk": 61,
+        "sp_def": 61,
+        "speed": 100,
+        "BST": 442
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Spearow"
+    }
+},
+{
+    "id": 23,
+    "name": "Ekans",
+    "type": ["Poison"],
+    "abilities": ["Intimidate", "Shed Skin"],
+    "hidden_ability": "Unnerve",
+    "height": "6'07\"2.0 m",
+    "weight": "15.2 lbs\"6.9 kg",
+    "stats": {
+        "hp": 35,
+        "attack": 60,
+        "defense": 44,
+        "sp_atk": 40,
+        "sp_def": 54,
+        "speed": 55,
+        "BST": 288
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Arbok",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 24,
+    "name": "Arbok",
+    "type": ["Poison"],
+    "abilities": ["Intimidate", "Shed Skin"],
+    "hidden_ability": "Unnerve",
+    "height": "11'06\"3.5 m",
+    "weight": "143.3 lbs\"65.0 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 69,
+        "sp_atk": 65,
+        "sp_def": 79,
+        "speed": 80,
+        "BST": 438
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None"
+}
+},
+{
+    "id": 25,
+    "name": "Pikachu",
+    "type": ["Electric"],
+    "abilities": ["Static"],
+    "hidden_ability": "Lightning Rod",
+    "height": "1'04\"0.4 m",
+    "weight": "13.2 lbs\"6.0 kg",
+    "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 90,
+        "BST": 320
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Raichu",
+        "evolves_from": "Pichu"
+    },
+    "gigantamax": {
+        "type": ["Electric"],
+        "height": "68'11\"21.0 m",
+        "weight": "??? lbs??? kg",
+        "ability": "G-Max Volt Crash"
+    }
+},
+{
+    "id": 26,
+    "name": "Raichu",
+    "type": ["Electric"],
+    "abilities": ["Static"],
+    "hidden_ability": "Lightning Rod",
+    "height": "2'07\"0.8 m",
+    "weight": "66.1 lbs\"30.0 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "sp_atk": 90,
+        "sp_def": 80,
+        "speed": 110,
+        "BST": 485
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Pikachu"
+    }
+},
+{
+    "id": 27,
+    "name": "Sandshrew",
+    "type": ["Ground"],
+    "abilities": ["Sand Veil", "Sand Rush"],
+    "hidden_ability": "Snow Cloak",
+    "height": "2'00\"0.6 m",
+    "weight": "26.5 lbs\"12.0 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "sp_atk": 20,
+        "sp_def": 30,
+        "speed": 40,
+        "BST": 300
+    }
+},
+{
+    "id": 28,
+    "name": "Sandslash",
+    "type": ["Ground"],
+    "abilities": ["Sand Veil", "Sand Rush"],
+    "hidden_ability": "Snow Cloak",
+    "height": "3'03\"1.0 m",
+    "weight": "65.0 lbs\"29.5 kg",
+    "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 65,
+        "BST": 450
+    }
+},
+{
+    "id": 29,
+    "name": "Nidoran♀",
+    "type": ["Poison"],
+    "abilities": ["Poison Point", "Rivalry"],
+    "hidden_ability": "Hustle",
+    "height": "1'04\"0.4 m",
+    "weight": "15.4 lbs\"7.0 kg",
+    "stats": {
+        "hp": 55,
+        "attack": 47,
+        "defense": 52,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 41,
+        "BST": 275
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Nidorina",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 30,
+    "name": "Nidorina",
+    "type": ["Poison"],
+    "abilities": ["Poison Point", "Rivalry"],
+    "hidden_ability": "Hustle",
+    "height": "2'07\"0.8 m",
+    "weight": "44.1 lbs\"20.0 kg",
+    "stats": {
+        "hp": 70,
+        "attack": 62,
+        "defense": 67,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 56,
+        "BST": 365
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Nidoqueen",
+        "evolves_from": "Nidoran♀"
+    }
+},
+{
+    "id": 31,
+    "name": "Nidoqueen",
+    "type": ["Poison", "Ground"],
+    "abilities": ["Poison Point", "Rivalry"],
+    "hidden_ability": "Sheer Force",
+    "height": "4'03\"1.3 m",
+    "weight": "132.3 lbs\"60.0 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 92,
+        "defense": 87,
+        "sp_atk": 75,
+        "sp_def": 85,
+        "speed": 76,
+        "BST": 505
+    }
+},
+{
+    "id": 32,
+    "name": "Nidoran♂",
+    "type": ["Poison"],
+    "abilities": ["Poison Point", "Rivalry"],
+    "hidden_ability": "Hustle",
+    "height": "1'08\"0.5 m",
+    "weight": "19.8 lbs\"9.0 kg",
+    "stats": {
+        "hp": 46,
+        "attack": 57,
+        "defense": 40,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 50,
+        "BST": 273
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Nidorino",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 33,
+    "name": "Nidorino",
+    "type": ["Poison"],
+    "abilities": ["Poison Point", "Rivalry"],
+    "hidden_ability": "Hustle",
+    "height": "2'11\"0.9 m",
+    "weight": "43.0 lbs\"19.5 kg",
+    "stats": {
+        "hp": 61,
+        "attack": 72,
+        "defense": 57,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 65,
+        "BST": 365
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Nidoking",
+        "evolves_from": "Nidoran♂"
+    }
+},
+{
+    "id": 34,
+    "name": "Nidoking",
+    "type": ["Poison", "Ground"],
+    "abilities": ["Poison Point", "Rivalry"],
+    "hidden_ability": "Sheer Force",
+    "height": "4'07\"1.4 m",
+    "weight": "136.7 lbs\"62.0 kg",
+    "stats": {
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 85,
+        "BST": 505
+    }
+},
+{
+    "id": 35,
+    "name": "Clefairy",
+    "type": ["Fairy"],
+    "abilities": ["Cute Charm", "Magic Guard"],
+    "hidden_ability": "Friend Guard",
+    "height": "2'00\"0.6 m",
+    "weight": "16.5 lbs\"7.5 kg",
+    "stats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "sp_atk": 60,
+        "sp_def": 65,
+        "speed": 35,
+        "BST": 323
+    }
+},
+{
+    "id": 36,
+    "name": "Clefable",
+    "type": ["Fairy"],
+    "abilities": ["Cute Charm", "Magic Guard"],
+    "hidden_ability": "Unaware",
+    "height": "4'03\"1.3 m",
+    "weight": "88.2 lbs\"40.0 kg",
+    "stats": {
+        "hp": 95,
+        "attack": 70,
+        "defense": 73,
+        "sp_atk": 95,
+        "sp_def": 90,
+        "speed": 60,
+        "BST": 483
+    }
+},
+{
+    "id": 37,
+    "name": "Vulpix",
+    "type": ["Fire"],
+    "abilities": ["Flash Fire", "Drought"],
+    "hidden_ability": "Snow Cloak",
+    "height": "2'00\"0.6 m",
+    "weight": "21.8 lbs\"9.9 kg",
+    "stats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "sp_atk": 50,
+        "sp_def": 65,
+        "speed": 65,
+        "BST": 299
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Ninetales",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 38,
+    "name": "Ninetales",
+    "type": ["Fire"],
+    "abilities": ["Flash Fire", "Drought"],
+    "hidden_ability": "Snow Cloak",
+    "height": "3'07\"1.1 m",
+    "weight": "43.9 lbs\"19.9 kg",
+    "stats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "sp_atk": 81,
+        "sp_def": 100,
+        "speed": 100,
+        "BST": 505
+    }
+},
+{
+    "id": 39,
+    "name": "Jigglypuff",
+    "type": ["Normal", "Fairy"],
+    "abilities": ["Cute Charm", "Competitive"],
+    "hidden_ability": "Friend Guard",
+    "height": "1'08\"0.5 m",
+    "weight": "12.1 lbs\"5.5 kg",
+    "stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "sp_atk": 45,
+        "sp_def": 25,
+        "speed": 20,
+        "BST": 270
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Wigglytuff",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 40,
+    "name": "Wigglytuff",
+    "type": ["Normal", "Fairy"],
+    "abilities": ["Cute Charm", "Competitive"],
+    "hidden_ability": "Frisk",
+    "height": "3'03\"1.0 m",
+    "weight": "26.5 lbs\"12.0 kg",
+    "stats": {
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "sp_atk": 85,
+        "sp_def": 50,
+        "speed": 45,
+        "BST": 435
+    }
+},
+{
+    "id": 41,
+    "name": "Zubat",
+    "type": ["Poison", "Flying"],
+    "abilities": ["Inner Focus"],
+    "hidden_ability": "Infiltrator",
+    "height": "2'07\"0.8 m",
+    "weight": "16.5 lbs\"7.5 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "sp_atk": 30,
+        "sp_def": 40,
+        "speed": 55,
+        "BST": 245
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Golbat",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 42,
+    "name": "Golbat",
+    "type": ["Poison", "Flying"],
+    "abilities": ["Inner Focus"],
+    "hidden_ability": "Infiltrator",
+    "height": "5'03\"1.6 m",
+    "weight": "121.3 lbs\"55.0 kg",
+    "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "sp_atk": 65,
+        "sp_def": 75,
+        "speed": 90,
+        "BST": 455
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Zubat"
+    }
+},
+{
+    "id": 43,
+    "name": "Oddish",
+    "type": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll"],
+    "hidden_ability": "Run Away",
+    "height": "1'08\"0.5 m",
+    "weight": "11.9 lbs\"5.4 kg",
+    "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "sp_atk": 75,
+        "sp_def": 65,
+        "speed": 30,
+        "BST": 320
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Gloom",
+        "evolves_from": "None"
+    }
+
+},
+{
+    "id": 44,
+    "name": "Gloom",
+    "type": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll"],
+    "hidden_ability": "Stench",
+    "height": "2'07\"0.8 m",
+    "weight": "19.0 lbs\"8.6 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 40,
+        "BST": 395
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Vileplume",
+        "evolves_from": "Oddish"
+    },
+    "other_evolution": {
+        "stage": 2,
+        "evolves_to": "Bellossom",
+        "evolves_from": "Gloom"
+    }
+},
+{
+    "id": 45,
+    "name": "Vileplume",
+    "type": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll"],
+    "hidden_ability": "Effect Spore",
+    "height": "3'11\"1.2 m",
+    "weight": "41.0 lbs\"18.6 kg",
+    "stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "sp_atk": 110,
+        "sp_def": 90,
+        "speed": 50,
+        "BST": 490
+    }
+},
+{
+    "id": 46,
+    "name": "Paras",
+    "type": ["Bug", "Grass"],
+    "abilities": ["Effect Spore", "Dry Skin"],
+    "hidden_ability": "Damp",
+    "height": "1'00\"0.3 m",
+    "weight": "11.9 lbs\"5.4 kg",
+    "stats": {
+        "hp": 35,
+        "attack": 70,
+        "defense": 55,
+        "sp_atk": 45,
+        "sp_def": 55,
+        "speed": 25,
+        "BST": 285
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Parasect",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 47,
+    "name": "Parasect",
+    "type": ["Bug", "Grass"],
+    "abilities": ["Effect Spore", "Dry Skin"],
+    "hidden_ability": "Damp",
+    "height": "3'03\"1.0 m",
+    "weight": "65.0 lbs\"29.5 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 80,
+        "sp_atk": 60,
+        "sp_def": 80,
+        "speed": 30,
+        "BST": 405
+    }
+},
+{
+    "id": 48,
+    "name": "Venonat",
+    "type": ["Bug", "Poison"],
+    "abilities": ["Compound Eyes", "Tinted Lens"],
+    "hidden_ability": "Run Away",
+    "height": "3'03\"1.0 m",
+    "weight": "66.1 lbs\"30.0 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 50,
+        "sp_atk": 40,
+        "sp_def": 55,
+        "speed": 45,
+        "BST": 315
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Venomoth",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 49,
+    "name": "Venomoth",
+    "type": ["Bug", "Poison"],
+    "abilities": ["Shield Dust", "Tinted Lens"],
+    "hidden_ability": "Wonder Skin",
+    "height": "4'11\"1.5 m",
+    "weight": "27.6 lbs\"12.5 kg",
+    "stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 60,
+        "sp_atk": 90,
+        "sp_def": 75,
+        "speed": 90,
+        "BST": 450
+    }
+},
+{
+    "id": 50,
+    "name": "Diglett",
+    "type": ["Ground"],
+    "abilities": ["Sand Veil", "Arena Trap"],
+    "hidden_ability": "Sand Force",
+    "height": "0'08\"0.2 m",
+    "weight": "1.8 lbs\"0.8 kg",
+    "stats": {
+        "hp": 10,
+        "attack": 55,
+        "defense": 25,
+        "sp_atk": 35,
+        "sp_def": 45,
+        "speed": 95,
+        "BST": 265
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Dugtrio",
+        "evolves_from": "None"
+    },
+    "other_forms": {
+        "name": "Alolan Diglett"
+    }
+},
+{
+    "id": 51,
+    "name": "Dugtrio",
+    "type": ["Ground"],
+    "abilities": ["Sand Veil", "Arena Trap"],
+    "hidden_ability": "Sand Force",
+    "height": "2'04\"0.7 m",
+    "weight": "73.4 lbs\"33.3 kg",
+    "stats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "sp_atk": 50,
+        "sp_def": 70,
+        "speed": 120,
+        "BST": 405
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Diglett"
+    },
+    "other_forms": {
+        "name": "Alolan Dugtrio"
+    }
+},
+{
+    "id": 52,
+    "name": "Meowth",
+    "type": ["Normal"],
+    "abilities": ["Pickup", "Technician"],
+    "hidden_ability": "Unnerve",
+    "height": "1'04\"0.4 m",
+    "weight": "9.3 lbs\"4.2 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 90,
+        "BST": 290
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Persian",
+        "evolves_from": "None"
+    },
+    "other_forms": {
+        "name": "Alolan Meowth"
+    }
+},
+{
+    "id": 53,
+    "name": "Persian",
+    "type": ["Normal"],
+    "abilities": ["Limber", "Technician"],
+    "hidden_ability": "Unnerve",
+    "height": "3'03\"1.0 m",
+    "weight": "70.5 lbs\"32.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 60,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 115,
+        "BST": 440
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Meowth"
+    },
+    "other_forms": {
+        "name": "Alolan Persian"
+    }
+},
+{
+    "id": 54,
+    "name": "Psyduck",
+    "type": ["Water"],
+    "abilities": ["Damp", "Cloud Nine"],
+    "hidden_ability": "Swift Swim",
+    "height": "2'07\"0.8 m",
+    "weight": "43.2 lbs\"19.6 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 52,
+        "defense": 48,
+        "sp_atk": 65,
+        "sp_def": 50,
+        "speed": 55,
+        "BST": 320
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Golduck",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 55,
+    "name": "Golduck",
+    "type": ["Water"],
+    "abilities": ["Damp", "Cloud Nine"],
+    "hidden_ability": "Swift Swim",
+    "height": "5'07\"1.7 m",
+    "weight": "168.9 lbs\"76.6 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 78,
+        "sp_atk": 95,
+        "sp_def": 80,
+        "speed": 85,
+        "BST": 500
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Psyduck"
+    }
+},
+{
+    "id": 56,
+    "name": "Mankey",
+    "type": ["Fighting"],
+    "abilities": ["Vital Spirit", "Anger Point"],
+    "hidden_ability": "Defiant",
+    "height": "1'08\"0.5 m",
+    "weight": "61.7 lbs\"28.0 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 35,
+        "sp_atk": 35,
+        "sp_def": 45,
+        "speed": 70,
+        "BST": 305
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Primeape",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 57,
+    "name": "Primeape",
+    "type": ["Fighting"],
+    "abilities": ["Vital Spirit", "Anger Point"],
+    "hidden_ability": "Defiant",
+    "height": "3'03\"1.0 m",
+    "weight": "70.5 lbs\"32.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 105,
+        "defense": 60,
+        "sp_atk": 60,
+        "sp_def": 70,
+        "speed": 95,
+        "BST": 455
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Mankey"
+    }
+},
+{
+    "id": 58,
+    "name": "Growlithe",
+    "type": ["Fire"],
+    "abilities": ["Intimidate", "Flash Fire"],
+    "hidden_ability": "Justified",
+    "height": "2'04\"0.7 m",
+    "weight": "41.9 lbs\"19.0 kg",
+    "stats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 45,
+        "sp_atk": 70,
+        "sp_def": 50,
+        "speed": 60,
+        "BST": 350
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Arcanine",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 59,
+    "name": "Arcanine",
+    "type": ["Fire"],
+    "abilities": ["Intimidate", "Flash Fire"],
+    "hidden_ability": "Justified",
+    "height": "6'03\"1.9 m",
+    "weight": "341.7 lbs\"155.0 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 110,
+        "defense": 80,
+        "sp_atk": 100,
+        "sp_def": 80,
+        "speed": 95,
+        "BST": 555
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Growlithe"
+    }
+},
+{
+    "id": 60,
+    "name": "Poliwag",
+    "type": ["Water"],
+    "abilities": ["Water Absorb", "Damp"],
+    "hidden_ability": "Swift Swim",
+    "height": "2'00\"0.6 m",
+    "weight": "27.3 lbs\"12.4 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 90,
+        "BST": 300
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Poliwhirl",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 61,
+    "name": "Poliwhirl",
+    "type": ["Water"],
+    "abilities": ["Water Absorb", "Damp"],
+    "hidden_ability": "Swift Swim",
+    "height": "3'03\"1.0 m",
+    "weight": "44.1 lbs\"20.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 65,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 90,
+        "BST": 385
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Poliwrath",
+        "evolves_from": "Poliwag"
+    },
+    "other_evolution": {
+        "stage": 2,
+        "evolves_to": "Politoed",
+        "evolves_from": "Poliwhirl"
+    }
+},
+{
+    "id": 62,
+    "name": "Poliwrath",
+    "type": ["Water", "Fighting"],
+    "abilities": ["Water Absorb", "Damp"],
+    "hidden_ability": "Swift Swim",
+    "height": "4'03\"1.3 m",
+    "weight": "119.0 lbs\"54.0 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 95,
+        "sp_atk": 70,
+        "sp_def": 90,
+        "speed": 70,
+        "BST": 510
+    }
+},
+{
+    "id": 63,
+    "name": "Abra",
+    "type": ["Psychic"],
+    "abilities": ["Synchronize", "Inner Focus"],
+    "hidden_ability": "Magic Guard",
+    "height": "2'11\"0.9 m",
+    "weight": "43.0 lbs\"19.5 kg",
+    "stats": {
+        "hp": 25,
+        "attack": 20,
+        "defense": 15,
+        "sp_atk": 105,
+        "sp_def": 55,
+        "speed": 90,
+        "BST": 310
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Kadabra",
+        "evolves_from": "None"
+
+}
+},
+{
+    "id": 64,
+    "name": "Kadabra",
+    "type": ["Psychic"],
+    "abilities": ["Synchronize", "Inner Focus"],
+    "hidden_ability": "Magic Guard",
+    "height": "4'03\"1.3 m",
+    "weight": "124.6 lbs\"56.5 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "sp_atk": 120,
+        "sp_def": 70,
+        "speed": 105,
+        "BST": 400
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Alakazam",
+        "evolves_from": "Abra"
+    }
+},
+{
+    "id": 65,
+    "name": "Alakazam",
+    "type": ["Psychic"],
+    "abilities": ["Synchronize", "Inner Focus"],
+    "hidden_ability": "Magic Guard",
+    "height": "4'11\"1.5 m",
+    "weight": "105.8 lbs\"48.0 kg",
+    "stats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 45,
+        "sp_atk": 135,
+        "sp_def": 95,
+        "speed": 120,
+        "BST": 500
+    },
+    "mega_evolution": {
+        "mega_stone": "Alakazite",
+        "type": ["Psychic"],
+        "abilities": ["Trace"],
+        "height": "4'11\"1.5 m",
+        "weight": "105.8 lbs\"48.0 kg",
+        "stats": {
+            "hp": 55,
+            "attack": 50,
+            "defense": 65,
+            "sp_atk": 175,
+            "sp_def": 105,
+            "speed": 150,
+            "BST": 590
+        }
+    }
+},
+{
+    "id": 66,
+    "name": "Machop",
+    "type": ["Fighting"],
+    "abilities": ["Guts", "No Guard"],
+    "hidden_ability": "Steadfast",
+    "height": "2'07\"0.8 m",
+    "weight": "43.0 lbs\"19.5 kg",
+    "stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 50,
+        "sp_atk": 35,
+        "sp_def": 35,
+        "speed": 35,
+        "BST": 305
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Machoke",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 67,
+    "name": "Machoke",
+    "type": ["Fighting"],
+    "abilities": ["Guts", "No Guard"],
+    "hidden_ability": "Steadfast",
+    "height": "4'11\"1.5 m",
+    "weight": "155.4 lbs\"70.5 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "sp_atk": 50,
+        "sp_def": 60,
+        "speed": 45,
+        "BST": 405
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Machamp",
+        "evolves_from": "Machop"
+    }
+},
+{
+    "id": 68,
+    "name": "Machamp",
+    "type": ["Fighting"],
+    "abilities": ["Guts", "No Guard"],
+    "hidden_ability": "Steadfast",
+    "height": "5'03\"1.6 m",
+    "weight": "286.6 lbs\"130.0 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "sp_atk": 65,
+        "sp_def": 85,
+        "speed": 55,
+        "BST": 505
+    }
+},
+{
+    "id": 69,
+    "name": "Bellsprout",
+    "type": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll"],
+    "hidden_ability": "Gluttony",
+    "height": "2'04\"0.7 m",
+    "weight": "8.8 lbs\"4.0 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 35,
+        "sp_atk": 70,
+        "sp_def": 30,
+        "speed": 40,
+        "BST": 300
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Weepinbell",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 70,
+    "name": "Weepinbell",
+    "type": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll"],
+    "hidden_ability": "Gluttony",
+    "height": "3'03\"1.0 m",
+    "weight": "14.1 lbs\"6.4 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 50,
+        "sp_atk": 85,
+        "sp_def": 45,
+        "speed": 55,
+        "BST": 390
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Victreebel",
+        "evolves_from": "Bellsprout"
+    }
+},
+{
+    "id": 71,
+    "name": "Victreebel",
+    "type": ["Grass", "Poison"],
+    "abilities": ["Chlorophyll"],
+    "hidden_ability": "Gluttony",
+    "height": "5'07\"1.7 m",
+    "weight": "34.2 lbs\"15.5 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "sp_atk": 100,
+        "sp_def": 70,
+        "speed": 70,
+        "BST": 490
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Weepinbell"
+    }
+},
+{
+    "id": 72,
+    "name": "Tentacool",
+    "type": ["Water", "Poison"],
+    "abilities": ["Clear Body", "Liquid Ooze"],
+    "hidden_ability": "Rain Dish",
+    "height": "2'11\"0.9 m",
+    "weight": "100.3 lbs\"45.5 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "sp_atk": 50,
+        "sp_def": 100,
+        "speed": 70,
+        "BST": 335
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Tentacruel",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 73,
+    "name": "Tentacruel",
+    "type": ["Water", "Poison"],
+    "abilities": ["Clear Body", "Liquid Ooze"],
+    "hidden_ability": "Rain Dish",
+    "height": "5'03\"1.6 m",
+    "weight": "121.3 lbs\"55.0 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "sp_atk": 80,
+        "sp_def": 120,
+        "speed": 100,
+        "BST": 515
+    }
+},
+{
+    "id": 74,
+    "name": "Geodude",
+    "type": ["Rock", "Ground"],
+    "abilities": ["Rock Head", "Sturdy"],
+    "hidden_ability": "Sand Veil",
+    "height": "1'04\"0.4 m",
+    "weight": "44.1 lbs\"20.0 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "sp_atk": 30,
+        "sp_def": 30,
+        "speed": 20,
+        "BST": 300
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Graveler",
+        "evolves_from": "None"
+    },
+    "other_forms": {
+        "name": "Alolan Geodude"
+    }
+
+},
+{
+    "id": 75,
+    "name": "Graveler",
+    "type": ["Rock", "Ground"],
+    "abilities": ["Rock Head", "Sturdy"],
+    "hidden_ability": "Sand Veil",
+    "height": "3'03\"1.0 m",
+    "weight": "231.5 lbs\"105.0 kg",
+    "stats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 115,
+        "sp_atk": 45,
+        "sp_def": 45,
+        "speed": 35,
+        "BST": 390
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Golem",
+        "evolves_from": "Geodude"
+    },
+    "other_forms": {
+        "name": "Alolan Graveler"
+    }
+},
+{
+    "id": 76,
+    "name": "Golem",
+    "type": ["Rock", "Ground"],
+    "abilities": ["Rock Head", "Sturdy"],
+    "hidden_ability": "Sand Veil",
+    "height": "4'07\"1.4 m",
+    "weight": "661.4 lbs\"300.0 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 130,
+        "sp_atk": 55,
+        "sp_def": 65,
+        "speed": 45,
+        "BST": 495
+    },
+    "other_forms": {
+        "name": "Alolan Golem"
+    }
+},
+{
+    "id": 77,
+    "name": "Ponyta",
+    "type": ["Fire"],
+    "abilities": ["Run Away", "Flash Fire"],
+    "hidden_ability": "Flame Body",
+    "height": "3'03\"1.0 m",
+    "weight": "66.1 lbs\"30.0 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 55,
+        "sp_atk": 65,
+        "sp_def": 65,
+        "speed": 90,
+        "BST": 410
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Rapidash"
+},
+     "other_forms": {
+        "name": "Galarian Ponyta"
+     }
+    },
+    {
+    "id": 78,
+    "name": "Rapidash",
+    "type": ["Fire"],
+    "abilities": ["Run Away", "Flash Fire"],
+    "hidden_ability": "Flame Body",
+    "height": "5'07\"1.7 m",
+    "weight": "209.4 lbs\"95.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 100,
+        "defense": 70,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 105,
+        "BST": 500
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Ponyta"
+    },
+    "other_forms": {
+        "name": "Galarian Rapidash"
+    }
+},
+{
+    "id": 79,
+    "name": "Slowpoke",
+    "type": ["Water", "Psychic"],
+    "abilities": ["Oblivious", "Own Tempo"],
+    "hidden_ability": "Regenerator",
+    "height": "3'11\"1.2 m",
+    "weight": "79.4 lbs\"36.0 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "sp_atk": 40,
+        "sp_def": 40,
+        "speed": 15,
+        "BST": 315
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Slowbro",
+        "evolves_from": "None"
+    },
+    "other_forms": {
+        "name": "Galarian Slowpoke"
+    }
+},
+{
+    "id": 80,
+    "name": "Slowbro",
+    "type": ["Water", "Psychic"],
+    "abilities": ["Oblivious", "Own Tempo"],
+    "hidden_ability": "Regenerator",
+    "height": "5'03\"1.6 m",
+    "weight": "173.1 lbs\"78.5 kg",
+    "stats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 110,
+        "sp_atk": 100,
+        "sp_def": 80,
+        "speed": 30,
+        "BST": 490
+    },
+    "mega_evolution": {
+        "mega_stone": "Slowbronite",
+        "type": ["Water", "Psychic"],
+        "abilities": ["Shell Armor"],
+        "height": "6'07\"2.0 m",
+        "weight": "264.6 lbs\"120.0 kg",
+        "stats": {
+            "hp": 95,
+            "attack": 75,
+            "defense": 180,
+            "sp_atk": 130,
+            "sp_def": 80,
+            "speed": 30,
+            "BST": 590
+        }
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Slowpoke"
+    },
+    "other_forms": {
+        "name": "Galarian Slowbro"
+    }
+},
+{
+   "id": 81,
+    "name": "Magnemite",
+    "type": ["Electric", "Steel"],
+    "abilities": ["Magnet Pull", "Sturdy"],
+    "hidden_ability": "Analytic",
+    "height": "1'00\"0.3 m",
+    "weight": "13.2 lbs\"6.0 kg",
+    "stats": {
+        "hp": 25,
+        "attack": 35,
+        "defense": 70,
+        "sp_atk": 95,
+        "sp_def": 55,
+        "speed": 45,
+        "BST": 325
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Magneton",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 82,
+    "name": "Magneton",
+    "type": ["Electric", "Steel"],
+    "abilities": ["Magnet Pull", "Sturdy"],
+    "hidden_ability": "Analytic",
+    "height": "3'03\"1.0 m",
+    "weight": "132.3 lbs\"60.0 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 95,
+        "sp_atk": 120,
+        "sp_def": 70,
+        "speed": 70,
+        "BST": 465
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Magnezone",
+        "evolves_from": "Magnemite"
+    }
+},
+{
+    "id": 83,
+    "name": "Farfetch'd",
+    "type": ["Normal", "Flying"],
+    "abilities": ["Keen Eye", "Inner Focus"],
+    "hidden_ability": "Defiant",
+    "height": "2'07\"0.8 m",
+    "weight": "33.1 lbs\"15.0 kg",
+    "stats": {
+        "hp": 52,
+        "attack": 65,
+        "defense": 55,
+        "sp_atk": 58,
+        "sp_def": 62,
+        "speed": 60,
+        "BST": 352
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Sirfetch'd",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 84,
+    "name": "Doduo",
+    "type": ["Normal", "Flying"],
+    "abilities": ["Run Away", "Early Bird"],
+    "hidden_ability": "Tangled Feet",
+    "height": "4'07\"1.4 m",
+    "weight": "86.4 lbs\"39.2 kg",
+    "stats": {
+        "hp": 35,
+        "attack": 85,
+        "defense": 45,
+        "sp_atk": 35,
+        "sp_def": 35,
+        "speed": 75,
+        "BST": 310
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Dodrio",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 85,
+    "name": "Dodrio",
+    "type": ["Normal", "Flying"],
+    "abilities": ["Run Away", "Early Bird"],
+    "hidden_ability": "Tangled Feet",
+    "height": "5'11\"1.8 m",
+    "weight": "187.8 lbs\"85.2 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 110,
+        "defense": 70,
+        "sp_atk": 60,
+        "sp_def": 60,
+        "speed": 100,
+        "BST": 470
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Doduo"
+    }
+},
+{
+    "id": 86,
+    "name": "Seel",
+    "type": ["Water"],
+    "abilities": ["Thick Fat", "Hydration"],
+    "hidden_ability": "Ice Body",
+    "height": "3'07\"1.1 m",
+    "weight": "198.4 lbs\"90.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 45,
+        "defense": 55,
+        "sp_atk": 45,
+        "sp_def": 70,
+        "speed": 45,
+        "BST": 325
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Dewgong",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 87,
+    "name": "Dewgong",
+    "type": ["Water", "Ice"],
+    "abilities": ["Thick Fat", "Hydration"],
+    "hidden_ability": "Ice Body",
+    "height": "5'07\"1.7 m",
+    "weight": "264.6 lbs\"120.0 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 70,
+        "defense": 80,
+        "sp_atk": 70,
+        "sp_def": 95,
+        "speed": 70,
+        "BST": 475
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None"
+}
+},
+{
+    "id": 88,
+    "name": "Grimer",
+    "type": ["Poison"],
+    "abilities": ["Stench", "Sticky Hold"],
+    "hidden_ability": "Poison Touch",
+    "height": "2'11\"0.9 m",
+    "weight": "66.1 lbs\"30.0 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50,
+        "sp_atk": 40,
+        "sp_def": 50,
+        "speed": 25,
+        "BST": 325
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Muk",
+        "evolves_from": "None"
+    },
+    "other_forms": {
+        "name": "Alolan Grimer"
+    }
+},
+{
+    "id": 89,
+    "name": "Muk",
+    "type": ["Poison"],
+    "abilities": ["Stench", "Sticky Hold"],
+    "hidden_ability": "Poison Touch",
+    "height": "3'11\"1.2 m",
+    "weight": "66.1 lbs\"30.0 kg",
+    "stats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "sp_atk": 65,
+        "sp_def": 100,
+        "speed": 50,
+        "BST": 500
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Grimer"
+    },
+    "other_forms": {
+        "name": "Alolan Muk"
+    }
+},
+{
+    "id": 90,
+    "name": "Shellder",
+    "type": ["Water"],
+    "abilities": ["Shell Armor", "Skill Link"],
+    "hidden_ability": "Overcoat",
+    "height": "1'00\"0.3 m",
+    "weight": "8.8 lbs\"4.0 kg",
+    "stats": {
+        "hp": 30,
+        "attack": 65,
+        "defense": 100,
+        "sp_atk": 45,
+        "sp_def": 25,
+        "speed": 40,
+        "BST": 305
+},
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Cloyster",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 91,
+    "name": "Cloyster",
+    "type": ["Water", "Ice"],
+    "abilities": ["Shell Armor", "Skill Link"],
+    "hidden_ability": "Overcoat",
+    "height": "4'11\"1.5 m",
+    "weight": "292.1 lbs\"132.5 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 95,
+        "defense": 180,
+        "sp_atk": 85,
+        "sp_def": 45,
+        "speed": 70,
+        "BST": 525
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Shellder"
+    }
+},
+{
+    "id": 92,
+    "name": "Gastly",
+    "type": ["Ghost", "Poison"],
+    "abilities": ["Levitate"],
+    "hidden_ability": "None",
+    "height": "4'03\"1.3 m",
+    "weight": "0.2 lbs\"0.1 kg",
+    "stats": {
+        "hp": 30,
+        "attack": 35,
+        "defense": 30,
+        "sp_atk": 100,
+        "sp_def": 35,
+        "speed": 80,
+        "BST": 310
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Haunter",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 93,
+    "name": "Haunter",
+    "type": ["Ghost", "Poison"],
+    "abilities": ["Levitate"],
+    "hidden_ability": "None",
+    "height": "5'03\"1.6 m",
+    "weight": "0.2 lbs\"0.1 kg",
+    "stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 45,
+        "sp_atk": 115,
+        "sp_def": 55,
+        "speed": 95,
+        "BST": 405
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Gengar",
+        "evolves_from": "Gastly"
+
+}
+},
+{
+    "id": 94,
+    "name": "Gengar",
+    "type": ["Ghost", "Poison"],
+    "abilities": ["Cursed Body"],
+    "hidden_ability": "None",
+    "height": "4'11\"1.5 m",
+    "weight": "89.3 lbs\"40.5 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 60,
+        "sp_atk": 130,
+        "sp_def": 75,
+        "speed": 110,
+        "BST": 500
+    },
+    "mega_evolution": {
+        "mega_stone": "Gengarite",
+        "type": ["Ghost", "Poison"],
+        "abilities": ["Shadow Tag"],
+        "height": "4'11\"1.5 m",
+        "weight": "89.3 lbs\"40.5 kg",
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 80,
+            "sp_atk": 170,
+            "sp_def": 95,
+            "speed": 130,
+            "BST": 600
+        }
+    }
+},
+{
+    "id": 95,
+    "name": "Onix",
+    "type": ["Rock", "Ground"],
+    "abilities": ["Rock Head", "Sturdy"],
+    "hidden_ability": "Weak Armor",
+    "height": "28'10\"8.8 m",
+    "weight": "463.0 lbs\"210.0 kg",
+    "stats": {
+        "hp": 35,
+        "attack": 45,
+        "defense": 160,
+        "sp_atk": 30,
+        "sp_def": 45,
+        "speed": 70,
+        "BST": 385
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Steelix",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 96,
+    "name": "Drowzee",
+    "type": ["Psychic"],
+    "abilities": ["Insomnia", "Forewarn"],
+    "hidden_ability": "Inner Focus",
+    "height": "3'03\"1.0 m",
+    "weight": "71.4 lbs\"32.4 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 48,
+        "defense": 45,
+        "sp_atk": 43,
+        "sp_def": 90,
+        "speed": 42,
+        "BST": 328
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Hypno",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 97,
+    "name": "Hypno",
+    "type": ["Psychic"],
+    "abilities": ["Insomnia", "Forewarn"],
+    "hidden_ability": "Inner Focus",
+    "height": "5'03\"1.6 m",
+    "weight": "166.7 lbs\"75.6 kg",
+    "stats": {
+        "hp": 85,
+        "attack": 73,
+        "defense": 70,
+        "sp_atk": 73,
+        "sp_def": 115,
+        "speed": 67,
+        "BST": 483
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Drowzee"
+    }
+},
+{
+    "id": 98,
+    "name": "Krabby",
+    "type": ["Water"],
+    "abilities": ["Hyper Cutter", "Shell Armor"],
+    "hidden_ability": "Sheer Force",
+    "height": "1'04\"0.4 m",
+    "weight": "14.3 lbs\"6.5 kg",
+    "stats": {
+        "hp": 30,
+        "attack": 105,
+        "defense": 90,
+        "sp_atk": 25,
+        "sp_def": 25,
+        "speed": 50,
+        "BST": 325
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Kingler",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 99,
+    "name": "Kingler",
+    "type": ["Water"],
+    "abilities": ["Hyper Cutter", "Shell Armor"],
+    "hidden_ability": "Sheer Force",
+    "height": "4'03\"1.3 m",
+    "weight": "132.3 lbs\"60.0 kg",
+    "stats": {
+        "hp": 55,
+        "attack": 130,
+        "defense": 115,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 75,
+        "BST": 475
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Krabby"
+}
+},
+{
+    "id": 100,
+    "name": "Voltorb",
+    "type": ["Electric"],
+    "abilities": ["Soundproof", "Static"],
+    "hidden_ability": "Aftermath",
+    "height": "1'08\"0.5 m",
+    "weight": "22.9 lbs\"10.4 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "sp_atk": 55,
+        "sp_def": 55,
+        "speed": 100,
+        "BST": 330
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Electrode",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 101,
+    "name": "Electrode",
+    "type": ["Electric"],
+    "abilities": ["Soundproof", "Static"],
+    "hidden_ability": "Aftermath",
+    "height": "3'11\"1.2 m",
+    "weight": "146.8 lbs\"66.6 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "sp_atk": 80,
+        "sp_def": 80,
+        "speed": 140,
+        "BST": 480
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Voltorb"
+    }
+},
+{
+    "id": 102,
+    "name": "Exeggcute",
+    "type": ["Grass", "Psychic"],
+    "abilities": ["Chlorophyll", "Harvest"],
+    "hidden_ability": "None",
+    "height": "1'04\"0.4 m",
+    "weight": "5.5 lbs\"2.5 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 80,
+        "sp_atk": 60,
+        "sp_def": 45,
+        "speed": 40,
+        "BST": 325
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Exeggutor",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 103,
+    "name": "Exeggutor",
+    "type": ["Grass", "Psychic"],
+    "abilities": ["Chlorophyll", "Harvest"],
+    "hidden_ability": "Frisk",
+    "height": "6'07\"2.0 m",
+    "weight": "264.6 lbs\"120.0 kg",
+    "stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "sp_atk": 125,
+        "sp_def": 65,
+        "speed": 55,
+        "BST": 520
+    },
+    "other_forms": {
+        "name": "Alolan Exeggutor"
+    }
+},
+{
+    "id": 104,
+    "name": "Cubone",
+    "type": ["Ground"],
+    "abilities": ["Rock Head", "Lightning Rod"],
+    "hidden_ability": "Battle Armor",
+    "height": "1'04\"0.4 m",
+    "weight": "14.3 lbs\"6.5 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 95,
+        "sp_atk": 40,
+        "sp_def": 50,
+        "speed": 35,
+        "BST": 320
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Marowak",
+        "evolves_from": "None"
+    },
+    "other_forms": {
+        "name": "Alolan Cubone"
+    }
+},
+{
+    "id": 105,
+    "name": "Marowak",
+    "type": ["Ground"],
+    "abilities": ["Rock Head", "Lightning Rod"],
+    "hidden_ability": "Battle Armor",
+    "height": "3'03\"1.0 m",
+    "weight": "99.2 lbs\"45.0 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "sp_atk": 50,
+        "sp_def": 80,
+        "speed": 45,
+        "BST": 425
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None"
+},
+    "other_forms": {
+        "name": "Alolan Marowak"
+    }
+},
+{
+    "id": 106,
+    "name": "Hitmonlee",
+    "type": ["Fighting"],
+    "abilities": ["Limber", "Reckless"],
+    "hidden_ability": "Unburden",
+    "height": "4'11\"1.5 m",
+    "weight": "109.8 lbs\"49.8 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 120,
+        "defense": 53,
+        "sp_atk": 35,
+        "sp_def": 110,
+        "speed": 87,
+        "BST": 455
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Tyrogue"
+    }
+},
+{
+    "id": 107,
+    "name": "Hitmonchan",
+    "type": ["Fighting"],
+    "abilities": ["Keen Eye", "Iron Fist"],
+    "hidden_ability": "Inner Focus",
+    "height": "4'07\"1.4 m",
+    "weight": "110.7 lbs\"50.2 kg",
+    "stats": {
+        "hp": 50,
+        "attack": 105,
+        "defense": 79,
+        "sp_atk": 35,
+        "sp_def": 110,
+        "speed": 76,
+        "BST": 455
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Tyrogue"
+    }
+},
+{
+    "id": 108,
+    "name": "Lickitung",
+    "type": ["Normal"],
+    "abilities": ["Own Tempo", "Oblivious"],
+    "hidden_ability": "Cloud Nine",
+    "height": "3'11\"1.2 m",
+    "weight": "144.4 lbs\"65.5 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 55,
+        "defense": 75,
+        "sp_atk": 60,
+        "sp_def": 75,
+        "speed": 30,
+        "BST": 385
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Lickilicky",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 109,
+    "name": "Koffing",
+    "type": ["Poison"],
+    "abilities": ["Levitate"],
+    "hidden_ability": "None",
+    "height": "2'00\"0.6 m",
+    "weight": "2.2 lbs\"1.0 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 95,
+        "sp_atk": 60,
+        "sp_def": 45,
+        "speed": 35,
+        "BST": 340
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Weezing",
+        "evolves_from": "None"
+    },
+    "other_forms": {
+        "name": "Galarian Koffing"
+    }
+},
+{
+    "id": 110,
+    "name": "Weezing",
+    "type": ["Poison"],
+    "abilities": ["Levitate"],
+    "hidden_ability": "None",
+    "height": "3'11\"1.2 m",
+    "weight": "20.9 lbs\"9.5 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "sp_atk": 85,
+        "sp_def": 70,
+        "speed": 60,
+        "BST": 490
+    },
+    "other_forms": {
+        "name": "Galarian Weezing"
+},
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Koffing"
+    }
+},
+{
+    "id": 111,
+    "name": "Rhyhorn",
+    "type": ["Ground", "Rock"],
+    "abilities": ["Lightning Rod", "Rock Head"],
+    "hidden_ability": "Reckless",
+    "height": "3'03\"1.0 m",
+    "weight": "253.5 lbs\"115.0 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "sp_atk": 30,
+        "sp_def": 30,
+        "speed": 25,
+        "BST": 345
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Rhydon",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 112,
+    "name": "Rhydon",
+    "type": ["Ground", "Rock"],
+    "abilities": ["Lightning Rod", "Rock Head"],
+    "hidden_ability": "Reckless",
+    "height": "6'03\"1.9 m",
+    "weight": "264.6 lbs\"120.0 kg",
+    "stats": {
+        "hp": 105,
+        "attack": 130,
+        "defense": 120,
+        "sp_atk": 45,
+        "sp_def": 45,
+        "speed": 40,
+        "BST": 485
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Rhyperior",
+        "evolves_from": "Rhyhorn"
+    }
+},
+{
+    "id": 113,
+    "name": "Chansey",
+    "type": ["Normal"],
+    "abilities": ["Natural Cure", "Serene Grace"],
+    "hidden_ability": "Healer",
+    "height": "3'07\"1.1 m",
+    "weight": "76.3 lbs\"34.6 kg",
+    "stats": {
+        "hp": 250,
+        "attack": 5,
+        "defense": 5,
+        "sp_atk": 35,
+        "sp_def": 105,
+        "speed": 50,
+        "BST": 450
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Blissey",
+        "evolves_from": "Happiny"
+}
+},
+{
+    "id": 114,
+    "name": "Tangela",
+    "type": ["Grass"],
+    "abilities": ["Chlorophyll", "Leaf Guard"],
+    "hidden_ability": "Regenerator",
+    "height": "3'03\"1.0 m",
+    "weight": "77.2 lbs\"35.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 55,
+        "defense": 115,
+        "sp_atk": 100,
+        "sp_def": 40,
+        "speed": 60,
+        "BST": 435
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Tangrowth",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 115,
+    "name": "Kangaskhan",
+    "type": ["Normal"],
+    "abilities": ["Early Bird", "Scrappy"],
+    "hidden_ability": "Inner Focus",
+    "height": "7'03\"2.2 m",
+    "weight": "176.4 lbs\"80.0 kg",
+    "stats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 80,
+        "sp_atk": 40,
+        "sp_def": 80,
+        "speed": 90,
+        "BST": 490
+    },
+    "mega_evolution": {
+        "mega_stone": "Kangaskhanite",
+        "type": ["Normal"],
+        "abilities": ["Parental Bond"],
+        "height": "7'03\"2.2 m",
+        "weight": "220.5 lbs\"100.0 kg",
+        "stats": {
+            "hp": 105,
+            "attack": 125,
+            "defense": 100,
+            "sp_atk": 60,
+            "sp_def": 100,
+            "speed": 100,
+            "BST": 590
+        }
+    }
+},
+{
+    "id": 116,
+    "name": "Horsea",
+    "type": ["Water"],
+    "abilities": ["Swift Swim", "Sniper"],
+    "hidden_ability": "Damp",
+    "height": "1'04\"0.4 m",
+    "weight": "17.6 lbs\"8.0 kg",
+    "stats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 70,
+        "sp_atk": 70,
+        "sp_def": 25,
+        "speed": 60,
+        "BST": 295
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Seadra",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 117,
+    "name": "Seadra",
+    "type": ["Water"],
+    "abilities": ["Poison Point", "Sniper"],
+    "hidden_ability": "Damp",
+    "height": "3'11\"1.2 m",
+    "weight": "55.1 lbs\"25.0 kg",
+    "stats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 95,
+        "sp_atk": 95,
+        "sp_def": 45,
+        "speed": 85,
+        "BST": 440
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Kingdra",
+        "evolves_from": "Horsea"
+    }
+
+},
+{
+    "id": 118,
+    "name": "Goldeen",
+    "type": ["Water"],
+    "abilities": ["Swift Swim", "Water Veil"],
+    "hidden_ability": "Lightning Rod",
+    "height": "2'00\"0.6 m",
+    "weight": "33.1 lbs\"15.0 kg",
+    "stats": {
+        "hp": 45,
+        "attack": 67,
+        "defense": 60,
+        "sp_atk": 35,
+        "sp_def": 50,
+        "speed": 63,
+        "BST": 320
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Seaking",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 119,
+    "name": "Seaking",
+    "type": ["Water"],
+    "abilities": ["Swift Swim", "Water Veil"],
+    "hidden_ability": "Lightning Rod",
+    "height": "4'03\"1.3 m",
+    "weight": "86.0 lbs\"39.0 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 92,
+        "defense": 65,
+        "sp_atk": 65,
+        "sp_def": 80,
+        "speed": 68,
+        "BST": 450
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Goldeen"
+    }
+},
+{
+    "id": 120,
+    "name": "Staryu",
+    "type": ["Water"],
+    "abilities": ["Illuminate", "Natural Cure"],
+    "hidden_ability": "Analytic",
+    "height": "2'07\"0.8 m",
+    "weight": "76.1 lbs\"34.5 kg",
+    "stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 55,
+        "sp_atk": 70,
+        "sp_def": 55,
+        "speed": 85,
+        "BST": 340
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Starmie",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 121,
+    "name": "Starmie",
+    "type": ["Water", "Psychic"],
+    "abilities": ["Illuminate", "Natural Cure"],
+    "hidden_ability": "Analytic",
+    "height": "3'07\"1.1 m",
+    "weight": "176.4 lbs\"80.0 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 85,
+        "sp_atk": 100,
+        "sp_def": 85,
+        "speed": 115,
+        "BST": 520
+    },
+    "other_forms": {
+        "name": "Galarian Stunfisk"
+    }
+},
+{
+    "id": 122,
+    "name": "Mr. Mime",
+    "type": ["Psychic", "Fairy"],
+    "abilities": ["Soundproof", "Filter"],
+    "hidden_ability": "Technician",
+    "height": "4'03\"1.3 m",
+    "weight": "120.2 lbs\"54.5 kg",
+    "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 65,
+        "sp_atk": 100,
+        "sp_def": 120,
+        "speed": 90,
+        "BST": 460
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Mr. Rime",
+        "evolves_from": "Galarian Mr. Mime"
+    }
+},
+{
+    "id": 123,
+    "name": "Scyther",
+    "type": ["Bug", "Flying"],
+    "abilities": ["Swarm", "Technician"],
+    "hidden_ability": "Steadfast",
+    "height": "4'11\"1.5 m",
+    "weight": "123.5 lbs\"56.0 kg",
+    "stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 80,
+        "sp_atk": 55,
+        "sp_def": 80,
+        "speed": 105,
+        "BST": 500
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Scizor",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 124,
+    "name": "Jynx",
+    "type": ["Ice", "Psychic"],
+    "abilities": ["Oblivious", "Forewarn"],
+    "hidden_ability": "Dry Skin",
+    "height": "4'07\"1.4 m",
+    "weight": "89.3 lbs\"40.6 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "sp_atk": 115,
+        "sp_def": 95,
+        "speed": 95,
+        "BST": 455
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "None",
+        "evolves_from": "Smoochum"
+    }
+},
+{
+    "id": 125,
+    "name": "Electabuzz",
+    "type": ["Electric"],
+    "abilities": ["Static", "Vital Spirit"],
+    "hidden_ability": "None",
+    "height": "3'07\"1.1 m",
+    "weight": "66.1 lbs\"30.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 83,
+        "defense": 57,
+        "sp_atk": 95,
+        "sp_def": 85,
+        "speed": 105,
+        "BST": 490
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Electivire",
+        "evolves_from": "Elekid"
+    }
+},
+{
+    "id": 126,
+    "name": "Magmar",
+    "type": ["Fire"],
+    "abilities": ["Flame Body", "Vital Spirit"],
+    "hidden_ability": "None",
+    "height": "4'03\"1.3 m",
+    "weight": "98.1 lbs\"44.5 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 57,
+        "sp_atk": 100,
+        "sp_def": 85,
+        "speed": 93,
+        "BST": 495
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Magmortar",
+        "evolves_from": "Magby"
+    }
+},
+{
+    "id": 127,
+    "name": "Pinsir",
+    "type": ["Bug"],
+    "abilities": ["Hyper Cutter", "Mold Breaker"],
+    "hidden_ability": "Moxie",
+    "height": "4'11\"1.5 m",
+    "weight": "121.3 lbs\"55.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 125,
+        "defense": 100,
+        "sp_atk": 55,
+        "sp_def": 70,
+        "speed": 85,
+        "BST": 500
+    },
+    "mega_evolution": {
+        "mega_stone": "Pinsirite",
+        "type": ["Bug", "Flying"],
+        "abilities": ["Aerilate"],
+        "height": "5'11\"1.8 m",
+        "weight": "130.1 lbs\"59.0 kg",
+        "stats": {
+            "hp": 65,
+            "attack": 155,
+            "defense": 120,
+            "sp_atk": 65,
+            "sp_def": 90,
+            "speed": 105,
+            "BST": 600
+        }
+    }
+},
+{
+    "id": 128,
+    "name": "Tauros",
+    "type": ["Normal"],
+    "abilities": ["Intimidate", "Anger Point"],
+    "hidden_ability": "Sheer Force",
+    "height": "4'07\"1.4 m",
+    "weight": "194.9 lbs\"88.4 kg",
+    "stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 95,
+        "sp_atk": 40,
+        "sp_def": 70,
+        "speed": 110,
+        "BST": 490
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "None",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 129,
+    "name": "Magikarp",
+    "type": ["Water"],
+    "abilities": ["Swift Swim", "Rattled"],
+    "hidden_ability": "None",
+    "height": "2'11\"0.9 m",
+    "weight": "22.0 lbs\"10.0 kg",
+    "stats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 55,
+        "sp_atk": 15,
+        "sp_def": 20,
+        "speed": 80,
+        "BST": 200
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Gyarados",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 130,
+    "name": "Gyarados",
+    "type": ["Water", "Flying"],
+    "abilities": ["Intimidate", "Moxie"],
+    "hidden_ability": "None",
+    "height": "21'04\"6.5 m",
+    "weight": "518.1 lbs\"235.0 kg",
+    "stats": {
+        "hp": 95,
+        "attack": 125,
+        "defense": 79,
+        "sp_atk": 60,
+        "sp_def": 100,
+        "speed": 81,
+        "BST": 540
+    },
+    "mega_evolution": {
+        "mega_stone": "Gyaradosite",
+        "type": ["Water", "Dark"],
+        "abilities": ["Mold Breaker"],
+        "height": "21'04\"6.5 m",
+        "weight": "672.4 lbs\"305.0 kg",
+        "stats": {
+            "hp": 95,
+            "attack": 155,
+            "defense": 109,
+            "sp_atk": 70,
+            "sp_def": 130,
+            "speed": 81,
+            "BST": 640
+        }
+    }
+},
+{
+    "id": 131,
+    "name": "Lapras",
+    "type": ["Water", "Ice"],
+    "abilities": ["Water Absorb", "Shell Armor"],
+    "hidden_ability": "Hydration",
+    "height": "8'02\"2.5 m",
+    "weight": "485.0 lbs\"220.0 kg",
+    "stats": {
+        "hp": 130,
+        "attack": 85,
+        "defense": 80,
+        "sp_atk": 85,
+        "sp_def": 95,
+        "speed": 60,
+        "BST": 535
+    }
+},
+{
+    "id": 132,
+    "name": "Ditto",
+    "type": ["Normal"],
+    "abilities": ["Limber", "Imposter"],
+    "hidden_ability": "None",
+    "height": "1'00\"0.3 m",
+    "weight": "8.8 lbs\"4.0 kg",
+    "stats": {
+        "hp": 48,
+        "attack": 48,
+        "defense": 48,
+        "sp_atk": 48,
+        "sp_def": 48,
+        "speed": 48,
+        "BST": 288
+    }
+},
+{
+    "id": 133,
+    "name": "Eevee",
+    "type": ["Normal"],
+    "abilities": ["Run Away", "Adaptability"],
+    "hidden_ability": "Anticipation",
+    "height": "1'00\"0.3 m",
+    "weight": "14.3 lbs\"6.5 kg",
+    "stats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 50,
+        "sp_atk": 45,
+        "sp_def": 65,
+        "speed": 55,
+        "BST": 325
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbreon", "Leafeon", "Glaceon", "Sylveon"],
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 134,
+    "name": "Vaporeon",
+    "type": ["Water"],
+    "abilities": ["Water Absorb", "Hydration"],
+    "hidden_ability": "None",
+    "height": "3'03\"1.0 m",
+    "weight": "63.9 lbs\"29.0 kg",
+    "stats": {
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "sp_atk": 110,
+        "sp_def": 95,
+        "speed": 65,
+        "BST": 525
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Eevee"
+    }
+},
+{
+    "id": 135,
+    "name": "Jolteon",
+    "type": ["Electric"],
+    "abilities": ["Volt Absorb", "Quick Feet"],
+    "hidden_ability": "None",
+    "height": "2'07\"0.8 m",
+    "weight": "54.0 lbs\"24.5 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 60,
+        "sp_atk": 110,
+        "sp_def": 95,
+        "speed": 130,
+        "BST": 525
+    }
+},
+{
+    "id": 136,
+    "name": "Flareon",
+    "type": ["Fire"],
+    "abilities": ["Flash Fire", "Guts"],
+    "hidden_ability": "None",
+    "height": "2'11\"0.9 m",
+    "weight": "55.1 lbs\"25.0 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 130,
+        "defense": 60,
+        "sp_atk": 95,
+        "sp_def": 110,
+        "speed": 65,
+        "BST": 525
+    }
+},
+{
+    "id": 137,
+    "name": "Porygon",
+    "type": ["Normal"],
+    "abilities": ["Trace", "Download"],
+    "hidden_ability": "Analytic",
+    "height": "2'07\"0.8 m",
+    "weight": "80.5 lbs\"36.5 kg",
+    "stats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 70,
+        "sp_atk": 85,
+        "sp_def": 75,
+        "speed": 40,
+        "BST": 395
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": ["Porygon2", "Porygon-Z"],
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 138,
+    "name": "Omanyte",
+    "type": ["Rock", "Water"],
+    "abilities": ["Swift Swim", "Shell Armor"],
+    "hidden_ability": "Weak Armor",
+    "height": "1'04\"0.4 m",
+    "weight": "16.5 lbs\"7.5 kg",
+    "stats": {
+        "hp": 35,
+        "attack": 40,
+        "defense": 100,
+        "sp_atk": 90,
+        "sp_def": 55,
+        "speed": 35,
+        "BST": 355
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Omastar",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 139,
+    "name": "Omastar",
+    "type": ["Rock", "Water"],
+    "abilities": ["Swift Swim", "Shell Armor"],
+    "hidden_ability": "Weak Armor",
+    "height": "3'03\"1.0 m",
+    "weight": "77.2 lbs\"35.0 kg",
+    "stats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 125,
+        "sp_atk": 115,
+        "sp_def": 70,
+        "speed": 55,
+        "BST": 495
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Omanyte"
+    }
+},
+{
+    "id": 140,
+    "name": "Kabuto",
+    "type": ["Rock", "Water"],
+    "abilities": ["Swift Swim", "Battle Armor"],
+    "hidden_ability": "Weak Armor",
+    "height": "1'08\"0.5 m",
+    "weight": "25.4 lbs\"11.5 kg",
+    "stats": {
+        "hp": 30,
+        "attack": 80,
+        "defense": 90,
+        "sp_atk": 55,
+        "sp_def": 45,
+        "speed": 55,
+        "BST": 355
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Kabutops",
+        "evolves_from": "None"
+}
+},
+{
+    "id": 141,
+    "name": "Kabutops",
+    "type": ["Rock", "Water"],
+    "abilities": ["Swift Swim", "Battle Armor"],
+    "hidden_ability": "Weak Armor",
+    "height": "4'03\"1.3 m",
+    "weight": "89.3 lbs\"40.5 kg",
+    "stats": {
+        "hp": 60,
+        "attack": 115,
+        "defense": 105,
+        "sp_atk": 65,
+        "sp_def": 70,
+        "speed": 80,
+        "BST": 495
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "None",
+        "evolves_from": "Kabuto"
+    }
+},
+{
+    "id": 142,
+    "name": "Aerodactyl",
+    "type": ["Rock", "Flying"],
+    "abilities": ["Rock Head", "Pressure"],
+    "hidden_ability": "Unnerve",
+    "height": "5'11\"1.8 m",
+    "weight": "130.1 lbs\"59.0 kg",
+    "stats": {
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "sp_atk": 60,
+        "sp_def": 75,
+        "speed": 130,
+        "BST": 515
+    },
+    "mega_evolution": {
+        "mega_stone": "Aerodactylite",
+        "type": ["Rock", "Flying"],
+        "abilities": ["Tough Claws"],
+        "height": "5'11\"1.8 m",
+        "weight": "174.2 lbs\"79.0 kg",
+        "stats": {
+            "hp": 80,
+            "attack": 135,
+            "defense": 85,
+            "sp_atk": 70,
+            "sp_def": 95,
+            "speed": 150,
+            "BST": 615
+        }
+    }
+},
+{
+    "id": 143,
+    "name": "Snorlax",
+    "type": ["Normal"],
+    "abilities": ["Immunity", "Thick Fat"],
+    "hidden_ability": "Gluttony",
+    "height": "6'11\"2.1 m",
+    "weight": "1014.1 lbs\"460.0 kg",
+    "stats": {
+        "hp": 160,
+        "attack": 110,
+        "defense": 65,
+        "sp_atk": 65,
+        "sp_def": 110,
+        "speed": 30,
+        "BST": 540
+    },
+    "gigantamax": {
+        "type": ["Normal"],
+        "height": "82'00\"25.0 m",
+        "weight": "??? lbs??? kg",
+        "stats": {
+            "hp": 160,
+            "attack": 125,
+            "defense": 100,
+            "sp_atk": 85,
+            "sp_def": 110,
+            "speed": 30,
+            "BST": 610
+        }
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "None",
+        "evolves_from": "Munchlax"
+}
+},
+{
+    "id": 144,
+    "name": "Articuno",
+    "type": ["Ice", "Flying"],
+    "abilities": ["Pressure", "Snow Cloak"],
+    "hidden_ability": "None",
+    "height": "5'07\"1.7 m",
+    "weight": "122.1 lbs\"55.4 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 85,
+        "defense": 100,
+        "sp_atk": 95,
+        "sp_def": 125,
+        "speed": 85,
+        "BST": 580
+},
+    "other_forms": {
+        "name": "Galarian Articuno"
+    }
+},
+{
+    "id": 145,
+    "name": "Zapdos",
+    "type": ["Electric", "Flying"],
+    "abilities": ["Pressure", "Static"],
+    "hidden_ability": "None",
+    "height": "5'03\"1.6 m",
+    "weight": "116.0 lbs\"52.6 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 85,
+        "sp_atk": 125,
+        "sp_def": 90,
+        "speed": 100,
+        "BST": 580
+    }, 
+    "other_forms": {
+        "name": "Galarian Zapdos"
+    }
+},
+{
+    "id": 146,
+    "name": "Moltres",
+    "type": ["Fire", "Flying"],
+    "abilities": ["Pressure", "Flame Body"],
+    "hidden_ability": "None",
+    "height": "6'07\"2.0 m",
+    "weight": "132.3 lbs\"60.0 kg",
+    "stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "sp_atk": 125,
+        "sp_def": 85,
+        "speed": 90,
+        "BST": 580
+    },
+    "other_forms": {
+        "name": "Galarian Moltres"
+    }
+},
+{
+    "id": 147,
+    "name": "Dratini",
+    "type": ["Dragon"],
+    "abilities": ["Shed Skin", "Marvel Scale"],
+    "hidden_ability": "None",
+    "height": "5'11\"1.8 m",
+    "weight": "7.3 lbs\"3.3 kg",
+    "stats": {
+        "hp": 41,
+        "attack": 64,
+        "defense": 45,
+        "sp_atk": 50,
+        "sp_def": 50,
+        "speed": 50,
+        "BST": 300
+    },
+    "evolution": {
+        "stage": 1,
+        "evolves_to": "Dragonair",
+        "evolves_from": "None"
+    }
+},
+{
+    "id": 148,
+    "name": "Dragonair",
+    "type": ["Dragon"],
+    "abilities": ["Shed Skin", "Marvel Scale"],
+    "hidden_ability": "None",
+    "height": "13'01\"4.0 m",
+    "weight": "36.4 lbs\"16.5 kg",
+    "stats": {
+        "hp": 61,
+        "attack": 84,
+        "defense": 65,
+        "sp_atk": 70,
+        "sp_def": 70,
+        "speed": 70,
+        "BST": 420
+    },
+    "evolution": {
+        "stage": 2,
+        "evolves_to": "Dragonite",
+        "evolves_from": "Dratini"
+    }
+},
+{
+    "id": 149,
+    "name": "Dragonite",
+    "type": ["Dragon", "Flying"],
+    "abilities": ["Inner Focus", "Multiscale"],
+    "hidden_ability": "None",
+    "height": "7'03\"2.2 m",
+    "weight": "463.0 lbs\"210.0 kg",
+    "stats": {
+        "hp": 91,
+        "attack": 134,
+        "defense": 95,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 80,
+        "BST": 600
+    }
+},
+{
+    "id": 150,
+    "name": "Mewtwo",
+    "type": ["Psychic"],
+    "abilities": ["Pressure", "Unnerve"],
+    "hidden_ability": "None",
+    "height": "6'07\"2.0 m",
+    "weight": "269.0 lbs\"122.0 kg",
+    "stats": {
+        "hp": 106,
+        "attack": 110,
+        "defense": 90,
+        "sp_atk": 154,
+        "sp_def": 90,
+        "speed": 130,
+        "BST": 680
+    },
+    "mega_evolution": {
+        "mega_stone": "Mewtwonite X",
+        "type": ["Psychic", "Fighting"],
+        "abilities": ["Steadfast"],
+        "height": "7'07\"2.3 m",
+        "weight": "280.0 lbs\"127.0 kg",
+        "stats": {
+            "hp": 106,
+            "attack": 190,
+            "defense": 100,
+            "sp_atk": 154,
+            "sp_def": 100,
+            "speed": 130,
+            "BST": 780
+        }
+    },
+    "mega_evolution2": {
+        "mega_stone": "Mewtwonite Y",
+        "type": ["Psychic"],
+        "abilities": ["Insomnia"],
+        "height": "4'11\"1.5 m",
+        "weight": "72.8 lbs\"33.0 kg",
+        "stats": {
+            "hp": 106,
+            "attack": 150,
+            "defense": 70,
+            "sp_atk": 194,
+            "sp_def": 120,
+            "speed": 140,
+            "BST": 780
+        }
+    }
+},
+{
+    "id": 151,
+    "name": "Mew",
+    "type": ["Psychic"],
+    "abilities": ["Synchronize"],
+    "hidden_ability": "None",
+    "height": "1'04\"0.4 m",
+    "weight": "8.8 lbs\"4.0 kg",
+    "stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "speed": 100,
+        "BST": 600
+    }
+}
+
+
+
+    ]
+}
